@@ -1,0 +1,35 @@
+{
+  "name": "paypal",
+  "version": "1.0.0",
+  "description": "paypal assessment",
+  "main": "TextFormatter.js",
+  "scripts": {
+    "test": "jest --forceExit",
+    "generate-docs": "jsdoc -c jsdoc.json src/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajJha/paypal-assessment.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "oops",
+    "paypal"
+  ],
+  "author": "Suraj Kumar Jha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/surajJha/paypal-assessment/issues"
+  },
+  "homepage": "https://github.com/surajJha/paypal-assessment#readme",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "docdash": "^1.1.1",
+    "jest": "^24.8.0",
+    "jest-cli": "^24.8.0",
+    "jsdoc": "^3.6.2"
+  }
+}
